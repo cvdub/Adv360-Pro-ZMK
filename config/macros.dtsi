@@ -34,11 +34,9 @@ label = "macro_kinesis";
 #binding-cells = <0>;
 bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
-macro_email_spacebase: macro_kinesis{
-  compatible = "zmk,behavior-macro";
-  label = "macro_email_spacebase";
-  #binding-cells = <0>;
-  wait-ms = <30>;
-  tap-ms = <40>;
-  bindings = <&kp C>, <&kp H>, <&kp R>, <&kp I>, <&kp S>, <&kp T>, <&kp I>, <&kp A>, <&kp N>, <&kp LS(2)>, <&kp S>, <&kp P>, <&kp A>, <&kp C>, <&kp E>, <&kp B>, <&kp A>, <&kp S>, <&kp E>, <&kp A>, <&kp P>, <&kp P>, <&kp DOT>, <&kp C>, <&kp O>, <&kp M>;
+macro_email_spacebase: macro_email_spacebase{
+compatible = "zmk,behavior-macro";
+label = "macro_email_spacebase";
+#binding-cells = <0>;
+bindings = <&kp C>, <&kp H>, <&kp R>, <&kp I>, <&kp S>, <&kp T>, <&kp I>, <&kp A>, <&kp N>, <&kp LS(NUMBER_2)>, <&kp S>, <&kp P>, <&kp A>, <&kp C>, <&kp E>, <&kp B>, <&kp A>, <&kp S>, <&kp E>, <&kp A>, <&kp P>, <&kp P>, <&kp DOT>, <&kp C>, <&kp O>, <&kp M>;
 };
