@@ -34,3 +34,11 @@ label = "macro_kinesis";
 #binding-cells = <0>;
 bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
+macro_email_spacebase: macro_kinesis{
+  compatible = "zmk,behavior-macro";
+  label = "macro_email_spacebase";
+  #binding-cells = <0>;
+  wait-ms = <30>;
+  tap-ms = <40>;
+  bindings = <&kp c &kp h &kp r &kp i &kp s &kp t &kp i &kp a &kp n &kp LS(2) &kp s &kp p &kp a &kp c &kp e &kp b &kp a &kp s &kp e &kp a &kp p &kp p &kp DOT &kp c &kp o &kp m>;
+};
