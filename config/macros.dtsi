@@ -40,5 +40,5 @@ macro_email_spacebase: macro_kinesis{
   #binding-cells = <0>;
   wait-ms = <30>;
   tap-ms = <40>;
-  bindings = <&kp c &kp h &kp r &kp i &kp s &kp t &kp i &kp a &kp n &kp LS(2) &kp s &kp p &kp a &kp c &kp e &kp b &kp a &kp s &kp e &kp a &kp p &kp p &kp DOT &kp c &kp o &kp m>;
+  bindings = <&kp C>, <&kp H>, <&kp R>, <&kp I>, <&kp S>, <&kp T>, <&kp I>, <&kp A>, <&kp N>, <&kp LS(2)>, <&kp S>, <&kp P>, <&kp A>, <&kp C>, <&kp E>, <&kp B>, <&kp A>, <&kp S>, <&kp E>, <&kp A>, <&kp P>, <&kp P>, <&kp DOT>, <&kp C>, <&kp O>, <&kp M>;
 };
